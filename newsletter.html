@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter | Bom Gestor Boa Organização</title>
+    <meta name="description" content="Subscreva a nossa newsletter quinzenal para os últimos insights de gestão e estratégias de liderança">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <div class="logo-container">
+                        <div class="logo-icon">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-main">BOM GESTOR</span>
+                            <span class="logo-sub">BOA ORGANIZAÇÃO</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Início</a>
+                <a href="articles.html" class="nav-link">Artigos</a>
+                <a href="archive.html" class="nav-link">Arquivo</a>
+                <a href="about.html" class="nav-link">Sobre</a>
+                <a href="contact.html" class="nav-link">Contato</a>
+                <a href="newsletter.html" class="nav-link newsletter-btn active">Newsletter</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="page-transition">
+        <!-- Newsletter Hero -->
+        <section class="newsletter-hero">
+            <div class="container">
+                <div class="newsletter-hero-content">
+                    <div class="hero-text fade-in-up">
+                        <h1>Mantenha-se Atualizado com a Nossa Newsletter</h1>
+                        <p class="hero-subtitle">Receba insights de gestão quinzenais, estratégias de liderança e conteúdo exclusivo diretamente na sua caixa de entrada.</p>
+                        
+                        <div class="newsletter-stats">
+                            <div class="stat">
+                                <span class="stat-number">10,000+</span>
+                                <span class="stat-label">Subscritores</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">95%</span>
+                                <span class="stat-label">Taxa de Abertura</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">Bi-weekly</span>
+                                <span class="stat-label">Entrega</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="newsletter-form-hero fade-in-up delay-1">
+                        <form class="newsletter-signup" id="newsletter-form">
+                            <h3>Subscrever Agora</h3>
+                            <div class="form-group">
+                                <input type="text" id="firstName" name="firstName" placeholder="Primeiro Nome" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Email Address" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="company" name="company" placeholder="Company (Optional)">
+                            </div>
+                            <div class="form-group">
+                                <select id="role" name="role">
+                                    <option value="">Your Role (Optional)</option>
+                                    <option value="ceo">CEO/Founder</option>
+                                    <option value="director">Director</option>
+                                    <option value="manager">Manager</option>
+                                    <option value="team-lead">Team Lead</option>
+                                    <option value="hr">HR Professional</option>
+                                    <option value="consultant">Consultant</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-large">
+                                Subscribe Now <i class="fas fa-arrow-right"></i>
+                            </button>
+                            <p class="privacy-note">We respect your privacy. Unsubscribe at any time.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What You'll Get -->
+        <section class="newsletter-benefits">
+            <div class="container">
+                <h2 class="section-title scroll-reveal">What You'll Get</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-card scroll-reveal hover-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-newspaper"></i>
+                        </div>
+                        <h3>Latest Articles</h3>
+                        <p>Be the first to read our newest management insights and leadership strategies before they're published on the website.</p>
+                    </div>
+                    
+                    <div class="benefit-card scroll-reveal hover-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Exclusive Content</h3>
+                        <p>Access subscriber-only content including extended interviews, case studies, and behind-the-scenes insights.</p>
+                    </div>
+                    
+                    <div class="benefit-card scroll-reveal hover-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Practical Tools</h3>
+                        <p>Download templates, checklists, and frameworks that you can immediately apply in your management practice.</p>
+                    </div>
+                    
+                    <div class="benefit-card scroll-reveal hover-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Community Access</h3>
+                        <p>Join our private community of managers where you can network, share experiences, and learn from peers.</p>
+                    </div>
+                    
+                    <div class="benefit-card scroll-reveal hover-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-calendar"></i>
+                        </div>
+                        <h3>Event Invites</h3>
+                        <p>Get early access to our webinars, workshops, and exclusive events with industry leaders.</p>
+                    </div>
+                    
+                    <div class="benefit-card scroll-reveal hover-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Trend Reports</h3>
+                        <p>Receive quarterly reports on management trends, industry insights, and emerging leadership practices.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Preview -->
+        <section class="newsletter-preview">
+            <div class="container">
+                <h2 class="section-title scroll-reveal">Newsletter Preview</h2>
+                <div class="preview-container scroll-reveal">
+                    <div class="preview-mockup">
+                        <div class="mockup-header">
+                            <div class="mockup-title">Good Manager – Good Company</div>
+                            <div class="mockup-date">December 15, 2024 • Issue #24</div>
+                        </div>
+                        <div class="mockup-content">
+                            <h3>This Week's Focus: Effective Team Leadership</h3>
+                            <p>Discover the key principles that separate great leaders from good ones...</p>
+                            
+                            <div class="mockup-section">
+                                <h4>📚 Featured Article</h4>
+                                <p>The Art of Effective Team Leadership in 2024</p>
+                            </div>
+                            
+                            <div class="mockup-section">
+                                <h4>🛠️ Tool of the Week</h4>
+                                <p>Team Performance Assessment Template</p>
+                            </div>
+                            
+                            <div class="mockup-section">
+                                <h4>💡 Quick Tip</h4>
+                                <p>Schedule 15-minute weekly check-ins with each team member</p>
+                            </div>
+                            
+                            <div class="mockup-section">
+                                <h4>📊 By the Numbers</h4>
+                                <p>Teams with regular feedback show 27% higher performance</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="newsletter-testimonials">
+            <div class="container">
+                <h2 class="section-title scroll-reveal">What Subscribers Say</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card scroll-reveal hover-card">
+                        <div class="testimonial-content">
+                            <p>"The bi-weekly insights have transformed how I approach team management. Each issue is packed with actionable advice I can implement immediately."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b3f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Jennifer Martinez">
+                            <div class="author-info">
+                                <h4>Jennifer Martinez</h4>
+                                <p>VP of Operations, TechStart Inc.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card scroll-reveal hover-card">
+                        <div class="testimonial-content">
+                            <p>"I look forward to every issue. The content is always relevant, well-researched, and presented in a way that's easy to understand and apply."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="David Chen">
+                            <div class="author-info">
+                                <h4>David Chen</h4>
+                                <p>Engineering Manager, GlobalSoft</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial-card scroll-reveal hover-card">
+                        <div class="testimonial-content">
+                            <p>"The exclusive tools and templates have been game-changers for my team. Worth subscribing just for the practical resources alone."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&q=80" alt="Alex Thompson">
+                            <div class="author-info">
+                                <h4>Alex Thompson</h4>
+                                <p>Director of Sales, InnovateNow</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="newsletter-faq">
+            <div class="container">
+                <h2 class="section-title scroll-reveal">Frequently Asked Questions</h2>
+                <div class="faq-container">
+                    <div class="faq-item scroll-reveal">
+                        <div class="faq-question" onclick="toggleNewsletterFaq(0)">
+                            <span>How often will I receive the newsletter?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Our newsletter is published bi-weekly, every other Tuesday. You'll receive approximately 26 issues per year with consistent, high-quality content.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item scroll-reveal">
+                        <div class="faq-question" onclick="toggleNewsletterFaq(1)">
+                            <span>Can I unsubscribe at any time?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Absolutely! You can unsubscribe at any time by clicking the unsubscribe link at the bottom of any newsletter email. No questions asked.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item scroll-reveal">
+                        <div class="faq-question" onclick="toggleNewsletterFaq(2)">
+                            <span>Do you share my email with third parties?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Never. We respect your privacy and will never share, sell, or rent your email address to third parties. Your information is safe with us.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item scroll-reveal">
+                        <div class="faq-question" onclick="toggleNewsletterFaq(3)">
+                            <span>What if I miss an issue?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Don't worry! All past newsletter content is archived and available to subscribers. You can catch up on any issues you may have missed.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item scroll-reveal">
+                        <div class="faq-question" onclick="toggleNewsletterFaq(4)">
+                            <span>Is the newsletter free?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes! Our newsletter is completely free. We believe that great management insights should be accessible to everyone who wants to improve their leadership skills.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="newsletter-final-cta">
+            <div class="container">
+                <div class="final-cta-content scroll-reveal">
+                    <h2>Ready to Level Up Your Management Skills?</h2>
+                    <p>Join thousands of managers who are already benefiting from our insights</p>
+                    <a href="#newsletter-form" class="btn btn-primary btn-large" onclick="scrollToNewsletter()">
+                        Subscribe Now <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Good Manager – Good Company</h3>
+                    <p>Empowering managers to build exceptional companies through thoughtful leadership and strategic insights.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="articles.html">Articles</a></li>
+                        <li><a href="archive.html">Archive</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-medium"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Good Manager – Good Company. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/newsletter.js"></script>
+</body>
+</html>
