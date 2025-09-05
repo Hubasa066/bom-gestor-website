@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artigos | Bom Gestor Boa Organização</title>
+    <meta name="description" content="Navegue por todos os artigos sobre excelência em gestão e cultura organizacional">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <div class="logo-container">
+                        <div class="logo-icon">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-main">BOM GESTOR</span>
+                            <span class="logo-sub">BOA ORGANIZAÇÃO</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Início</a>
+                <a href="articles.html" class="nav-link active">Artigos</a>
+                <a href="archive.html" class="nav-link">Arquivo</a>
+                <a href="about.html" class="nav-link">Sobre</a>
+                <a href="contact.html" class="nav-link">Contato</a>
+                <a href="newsletter.html" class="nav-link newsletter-btn">Newsletter</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="page-transition">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-title fade-in-up">Artigos</h1>
+                <p class="page-subtitle fade-in-up delay-1">Insights sobre excelência em gestão e construção de empresas prósperas</p>
+            </div>
+        </section>
+
+        <!-- Filters and Search -->
+        <section class="filters-section">
+            <div class="container">
+                <div class="filters-container">
+                    <!-- Search Bar -->
+                    <div class="search-container">
+                        <div class="search-box">
+                            <i class="fas fa-search"></i>
+                            <input type="text" id="search-input" placeholder="Pesquisar artigos...">
+                        </div>
+                        <div id="search-results" class="search-results"></div>
+                    </div>
+
+                    <!-- Filter Buttons -->
+                    <div class="filter-tabs">
+                        <button class="filter-btn active" data-filter="all">Todos</button>
+                        <button class="filter-btn" data-filter="leadership">Liderança</button>
+                        <button class="filter-btn" data-filter="remote-work">Trabalho Remoto</button>
+                        <button class="filter-btn" data-filter="analytics">Analytics</button>
+                        <button class="filter-btn" data-filter="culture">Cultura</button>
+                        <button class="filter-btn" data-filter="strategy">Estratégia</button>
+                    </div>
+
+                    <!-- Time Filters -->
+                    <div class="time-filters">
+                        <select id="year-filter" class="filter-select">
+                            <option value="">Todos os Anos</option>
+                            <option value="2024">2024</option>
+                            <option value="2023">2023</option>
+                        </select>
+                        <select id="month-filter" class="filter-select">
+                            <option value="">Todos os Meses</option>
+                            <option value="12">Dezembro</option>
+                            <option value="11">Novembro</option>
+                            <option value="10">Outubro</option>
+                            <option value="9">Setembro</option>
+                            <option value="8">Agosto</option>
+                            <option value="7">Julho</option>
+                        </select>
+                        <select id="week-filter" class="filter-select">
+                            <option value="">Todas as Semanas</option>
+                            <option value="week1">Semana 1</option>
+                            <option value="week2">Semana 2</option>
+                            <option value="week3">Semana 3</option>
+                            <option value="week4">Semana 4</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Articles Grid -->
+        <section class="articles-section">
+            <div class="container">
+                <div class="articles-grid" id="articles-grid">
+                    <!-- Article 1 -->
+                    <article class="article-card hover-card article-item" data-category="leadership" data-year="2025" data-month="8" data-week="week2">
+                        <div class="article-image">
+                            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="O Papel Crítico do Gestor">
+                        </div>
+                        <div class="article-content">
+                            <div class="article-meta">
+                                <span class="article-date">15 de Agosto, 2025</span>
+                                <span class="article-tag">Liderança</span>
+                                <span class="reading-time">7 min de leitura</span>
+                            </div>
+                            <h3 class="article-title">O Papel Crítico do Gestor</h3>
+                            <p class="article-excerpt">Uma boa gestão adiciona valor e garante o sucesso duradouro das organizações. Este artigo explica por que gestores eficazes são críticos para construir organizações sólidas.</p>
+                            <a href="article-detail.html?slug=o-papel-critico-do-gestor" class="read-more">Ler Mais <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Article 2 -->
+                    <article class="article-card hover-card article-item" data-category="management" data-year="2025" data-month="8" data-week="week2">
+                        <div class="article-image">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Caixa de Ferramentas de Gestão">
+                        </div>
+                        <div class="article-content">
+                            <div class="article-meta">
+                                <span class="article-date">15 de Agosto, 2025</span>
+                                <span class="article-tag">Gestão</span>
+                                <span class="reading-time">6 min de leitura</span>
+                            </div>
+                            <h3 class="article-title">Caixa de Ferramentas de Gestão & Lições Globais</h3>
+                            <p class="article-excerpt">Esta edição compartilha um checklist de alinhamento de 5 minutos e rounds de liderança, com lições da Toyota e Danaher sobre construção de organizações responsivas.</p>
+                            <a href="article-detail.html?slug=management-toolbox-global-lessons" class="read-more">Ler Mais <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Article 3 -->
+                    <article class="article-card hover-card article-item" data-category="analytics" data-year="2024" data-month="11" data-week="week2">
+                        <div class="article-image">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Data Analytics">
+                        </div>
+                        <div class="article-content">
+                            <div class="article-meta">
+                                <span class="article-date">November 15, 2024</span>
+                                <span class="article-tag">Analytics</span>
+                            </div>
+                            <h3 class="article-title">Data-Driven Decision Making for Managers</h3>
+                            <p class="article-excerpt">Learn how to leverage data analytics to make better business decisions and drive company growth. A comprehensive guide to business intelligence tools.</p>
+                            <a href="article-detail.html?id=3" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Article 4 -->
+                    <article class="article-card hover-card article-item" data-category="culture" data-year="2024" data-month="11" data-week="week1">
+                        <div class="article-image">
+                            <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Company Culture">
+                        </div>
+                        <div class="article-content">
+                            <div class="article-meta">
+                                <span class="article-date">November 1, 2024</span>
+                                <span class="article-tag">Culture</span>
+                            </div>
+                            <h3 class="article-title">Creating Psychological Safety in the Workplace</h3>
+                            <p class="article-excerpt">Why psychological safety is the foundation of high-performing teams and how managers can foster an environment where employees feel safe to take risks.</p>
+                            <a href="article-detail.html?id=4" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Article 5 -->
+                    <article class="article-card hover-card article-item" data-category="strategy" data-year="2024" data-month="10" data-week="week2">
+                        <div class="article-image">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Strategic Planning">
+                        </div>
+                        <div class="article-content">
+                            <div class="article-meta">
+                                <span class="article-date">October 15, 2024</span>
+                                <span class="article-tag">Strategy</span>
+                            </div>
+                            <h3 class="article-title">Strategic Planning in Uncertain Times</h3>
+                            <p class="article-excerpt">How to develop robust strategic plans that can adapt to changing market conditions while maintaining long-term vision and goals.</p>
+                            <a href="article-detail.html?id=5" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Article 6 -->
+                    <article class="article-card hover-card article-item" data-category="leadership" data-year="2024" data-month="10" data-week="week1">
+                        <div class="article-image">
+                            <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Feedback Culture">
+                        </div>
+                        <div class="article-content">
+                            <div class="article-meta">
+                                <span class="article-date">October 1, 2024</span>
+                                <span class="article-tag">Leadership</span>
+                            </div>
+                            <h3 class="article-title">The Power of Continuous Feedback</h3>
+                            <p class="article-excerpt">Moving beyond annual reviews to create a culture of continuous improvement through regular, meaningful feedback conversations.</p>
+                            <a href="article-detail.html?id=6" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Article 7 -->
+                    <article class="article-card hover-card article-item" data-category="remote-work" data-year="2024" data-month="9" data-week="week2">
+                        <div class="article-image">
+                            <img src="https://images.unsplash.com/photo-1600298881974-6be191ceeda1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Hybrid Work">
+                        </div>
+                        <div class="article-content">
+                            <div class="article-meta">
+                                <span class="article-date">September 15, 2024</span>
+                                <span class="article-tag">Remote Work</span>
+                            </div>
+                            <h3 class="article-title">Mastering Hybrid Work Models</h3>
+                            <p class="article-excerpt">Best practices for managing hybrid teams, balancing flexibility with collaboration, and ensuring all team members feel included.</p>
+                            <a href="article-detail.html?id=7" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Article 8 -->
+                    <article class="article-card hover-card article-item" data-category="culture" data-year="2024" data-month="9" data-week="week1">
+                        <div class="article-image">
+                            <img src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Employee Engagement">
+                        </div>
+                        <div class="article-content">
+                            <div class="article-meta">
+                                <span class="article-date">September 1, 2024</span>
+                                <span class="article-tag">Culture</span>
+                            </div>
+                            <h3 class="article-title">Boosting Employee Engagement Through Purpose</h3>
+                            <p class="article-excerpt">How to connect individual roles to company mission and create meaningful work experiences that drive engagement and retention.</p>
+                            <a href="article-detail.html?id=8" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Load More Button -->
+                <div class="load-more-container">
+                    <button class="btn btn-outline load-more-btn" id="load-more">
+                        Carregar Mais Artigos <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Bom Gestor Boa Organização</h3>
+                    <p>Capacitando gestores para construir organizações excepcionais através de liderança e insights estratégicos.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="articles.html">Artigos</a></li>
+                        <li><a href="archive.html">Arquivo</a></li>
+                        <li><a href="about.html">Sobre</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Conecte-se</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-medium"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Bom Gestor Boa Organização. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/articles.js"></script>
+</body>
+</html>
